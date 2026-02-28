@@ -82,11 +82,7 @@ python test.py --cfg_file cfgs/kitti_models/pointpillar.yaml --batch_size 1 --ck
 
 失败案例分析
 
-在 results/ 中提供了三个典型失败样本的 BEV 可视化图片：
-
-· 样本005032：误检（正确检测2辆，多出2个误检框）
-· 样本005000：远距离漏检（右侧车辆未检出）
-· 样本005001：中距离漏检（上方车辆未检出）
+在 results/ 中提供了三个典型失败样本的 BEV 可视化图片
 
 详细分析见技术复盘报告。
 
